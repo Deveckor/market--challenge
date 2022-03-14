@@ -1,0 +1,52 @@
+
+.back{
+  background-color: rgb(66, 66, 66);
+  height: 100%;
+}
+
+.card-product{
+  color: black;
+}
+.img-Card{
+  
+  height: 150px;
+ 
+}
+
+.header{
+  padding-left: 15px; 
+  padding-right: 15px; 
+  align-items: center;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  height: 50px;
+  
+  a{
+    text-decoration: none;
+    color: white;
+    &:hover{
+      color: rgb(163, 163, 163) ;
+    }
+  }
+  .profile{
+    height: 35px;
+    border-radius: 50%;
+  }
+}
+
+.greeting{
+  margin-top: 40px;
+  margin-left: 30px;
+  color: white;
+}
+
+.btn-Category{
+  border-radius: 15px;
+}
+.categories{
+  color: white;
+  section{
+    display: flex;
+    justify-content: space-between;
+  }
+}
