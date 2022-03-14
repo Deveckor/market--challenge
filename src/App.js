@@ -20,7 +20,7 @@ function App() {
         name="Héctor"
         />
         <Categories/>
-        <section className="d-flex gap-5 m-4">
+        <section className="d-flex justify-content-around gap-4 m-4">
 
         <CardProduct
         src='https://cdn1.coppel.com/images/catalog/pr/2077052-1.jpg'
