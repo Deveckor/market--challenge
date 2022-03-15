@@ -3,7 +3,7 @@ import React from 'react';
 
 
 function NavBar(props) {
-
+    const {carrito} = props;
     return (
         <header className="d-flex justify-content-between header">
             <div>
@@ -14,7 +14,7 @@ function NavBar(props) {
                 <a href="#">Products</a>
                 <a href="#"> Favorites</a>
             <img className="profile"  src={props.img} alt="profile" />
-               
+            <h4>Carrito {carrito}</h4>
             </nav>
 
         </header>
